@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 import {Text, TextInput, View} from 'react-native';
 
-import AddTodo from '../components/addTodo';
-export class TodoApp extends Component {
+import AddApp from '../components/addTodo';
+export class App extends Component {
   render() {
     return (
       <View>
-        <AddTodo />
+        <AddApp />
       </View>
     );
   }
 }
 
-export default TodoApp;
+export default App;
